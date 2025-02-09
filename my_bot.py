@@ -18,6 +18,16 @@ def should_i_respond(user_message, user_name):
     return True
   elif "what is your favourite class" in user_message:
     return True
+  elif "what is your favourite snack" in user_message:
+    return True
+  elif "do you have any relatives" in user_message:
+    return True
+  elif "Do you like apples or oranges more" in user_message:
+    return True
+  elif "Do you like Halloween or Christmas more" in user_message:
+   return True
+  elif "Do you have any siblings" in user_message:
+    return True
   else:
     return False
 
@@ -41,3 +51,13 @@ def respond(user_message, user_name):
     return "I am 156 years old"
   elif "what is your favourite class" in user_message:
     return "my favourite class is Computer Science" 
+  elif "what is your favourite snack" in user_message:
+    return "my favourite snack is Oreos"
+  elif "do you have any relatives" in user_message:
+   return "no"
+  elif "Do you like apples or oranges more" in user_message:
+   return "I like oranges more"
+  elif "Do you like Halloween or Christmas more" in user_message:
+    return "I like Halloween more"
+  elif "Do you have any siblings" in user_message:
+    return "no"
